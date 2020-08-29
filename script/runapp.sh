@@ -1,6 +1,3 @@
 echo 'Starting my app'
-for entry in "$search_dir"/*
-do
-  echo "$entry"
-done
+cd /home/ec2-user/jarFromCode/target
 java -jar Ec2Deploy-0.0.1-SNAPSHOT.jar
