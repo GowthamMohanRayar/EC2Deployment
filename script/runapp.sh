@@ -1,4 +1,3 @@
-#!/bin/bash
 echo 'Starting my app'
 for entry in "$search_dir"/*
 do
