@@ -5,5 +5,5 @@ files:
     destination: /home/ec2-user/jarFromCode
 hooks:
   ApplicationStart:
-    - location: /home/ec2-user/jarFromCode/script/runapp.sh
+    - location: /script/runapp.sh
       runas: root    
