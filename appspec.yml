@@ -1,9 +1,9 @@
 version: 0.0
 os: linux
 files:
-  - source: ./
+  - source: target
     destination: /home/ec2-user/jarFromCode
 hooks:
   ApplicationStart:
-    - location: /script/runapp.sh
+    - location: script/runapp.sh
       runas: root    
