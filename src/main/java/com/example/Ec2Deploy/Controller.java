@@ -16,14 +16,14 @@ public class Controller {
 		return "hello";
 	}
 
-//	@GetMapping("/says")
-//	public String saysHello() {
-//		return "saysHello";
-//	}
-//
-//	@GetMapping("/malamalamalemale")
-//	public String malamalamalemale() {
-//		return "malamalamalemale";
-//	}
+	@GetMapping("/says")
+	public String saysHello() {
+		return "saysHello";
+	}
+
+	@GetMapping("/malamalamalemale")
+	public String malamalamalemale() {
+		return "malamalamalemale";
+	}
 
 }
