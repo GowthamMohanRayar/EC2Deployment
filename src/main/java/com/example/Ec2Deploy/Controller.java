@@ -25,5 +25,10 @@ public class Controller {
 	public String malamalamalemale() {
 		return "malamalamalemale";
 	}
+	
+	@GetMapping("/test")
+	public String test() {
+		return "test";
+	}
 
 }
