@@ -10,20 +10,20 @@ public class Controller {
 	public String printHello() {
 		return "hello";
 	}
-//
-//	@GetMapping("/say")
-//	public String sayHello() {
-//		return "hello";
-//	}
-//
-//	@GetMapping("/says")
-//	public String saysHello() {
-//		return "saysHello";
-//	}
-//
-//	@GetMapping("/malamalamalemale")
-//	public String malamalamalemale() {
-//		return "malamalamalemale";
-//	}
+
+	@GetMapping("/say")
+	public String sayHello() {
+		return "hello";
+	}
+
+	@GetMapping("/says")
+	public String saysHello() {
+		return "saysHello";
+	}
+
+	@GetMapping("/malamalamalemale")
+	public String malamalamalemale() {
+		return "malamalamalemale";
+	}
 
 }
