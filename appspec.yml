@@ -4,7 +4,7 @@ files:
   - source: target
     destination: /home/ec2-user/jarFromCode
 hooks:
-  ApplicationStart:
+  ApplicationStop:
     - location: stopapp.bash
       timeout: 300
       runas: ec2-user
