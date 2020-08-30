@@ -5,6 +5,10 @@ files:
     destination: /home/ec2-user/jarFromCode
 hooks:
   ApplicationStart:
+    - location: stopapp.bash
+      timeout: 300
+      runas: ec2-user
+  ApplicationStart:
     - location: runapp.bash
       timeout: 300
       runas: ec2-user
