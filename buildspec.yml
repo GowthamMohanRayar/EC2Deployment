@@ -16,4 +16,5 @@ artifacts:
  files:
   - target/*.jar
   - runapp.bash
+  - stopapp.bash
   - appspec.yml
